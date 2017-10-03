@@ -1,0 +1,8 @@
+{{#each data.estimates as |estimate|}}
+  {{#link-to 'estimates.estimate' estimate}}
+    <h3>{{estimate.client.name}}</h3>
+    <p>{{estimate.materialTotal}}</p>
+    <p>{{estimate.laborTotal}}</p>
+    <p>{{estimate.estimateTotal}}</p>
+  {{/link-to}}
+{{/each}}

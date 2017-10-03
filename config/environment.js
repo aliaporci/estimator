@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'estimator',
+    podModulePrefix: 'estimator/routes',
     environment,
     rootURL: '/',
     locationType: 'auto',

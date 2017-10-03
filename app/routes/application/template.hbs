@@ -1,0 +1,20 @@
+{{#if isLoading}}
+  loading...
+{{else}}
+  lorem ipsum yo mama
+{{/if}}
+
+<button {{action 'toggleLoading'}}>
+  toggleLoading
+</button>
+
+<br/>
+
+{{#link-to 'estimates'}}
+
+  Estimates
+{{/link-to}}
+
+<hr/>
+
+{{outlet}}
